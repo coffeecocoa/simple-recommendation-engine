@@ -67,7 +67,5 @@
 		(update-coocurrence-matrix :item3 {})
 		(update-coocurrence-matrix :item4 {:item3 2})))
 
-; (def user3-prefs-map {:item1 2 :item3 4})
-; (recommend-for-a-prefs-map coocurrence-matrix user3-prefs-map)
-
-; output ->> {:item2 2, :item4 4}
+(def user3-prefs-map {:item1 2 :item3 4})
+(recommend-for-a-prefs-map coocurrence-matrix user3-prefs-map) ;; output ->> {:item2 2, :item4 4}
